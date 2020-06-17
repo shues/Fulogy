@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  background-image: url('./img/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 730px;
+/*  border: 1px solid gray;*/
+}
+
+.header {
+  background-color: black;
+  height: 80px;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
+.logo {
+  background-image: url('./img/Logo-600-8cef71f44d9023ee6cbf32d6d4a980dd.png');
+  height: 46px;
+  width: 120px;
+/*  display: inline-block;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+/*  margin-top: 15px;*/
+/*  margin-left: 35px;*/
+/*  background-color: gray;*/
+  flex-grow: 1;
+}
+
+.cart{
+/*  display: inline-block;*/
+  background-image: url("./img/cart.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 50px;
+/*  background-color: gray;*/
+}
+
+.cartsize{
+  font-size: 15px;
+  color: white;
+  background-color: skyblue;
+  width: 18px;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+
+
+.hamburger{
+  height: 20px;
+  width: 50px;
+}
+
+.hamburger__line{
+  border-top: 1px solid white;
+}
+
+
+.content{
+  flex-grow: 1;
+}
